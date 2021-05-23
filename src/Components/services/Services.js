@@ -11,11 +11,25 @@ import trella from '../../images/trella.png'
 import Jude from '../../images/Jude.png'
 import IX from '../../images/IX.png'
 
-import './services.css'
+import './services.scss'
 const Services = () => {
     return (
-        <div className="text-center p-5 my-3 bg-light">
-            <div className="text-danger fw-bold">Success stories with  400+ clients</div>
+        <div className="text-center p-5 my-3 bg-light position-relative">
+            <div className="servicesBtn d-flex justify-content-center ">
+                <button type="button" class="btn btn-light bg-transparent shadow mx-4 fw-bold ">
+                <i class="far fa-star text-danger px-3"></i>
+                    Free Commission
+                    </button>
+                <button type="button" class="btn btn-light bg-transparent shadow mx-4 fw-bold">
+                <i class="fas fa-sync-alt text-danger px-3"></i>
+                    Free Contact Exchange
+                    </button>
+                <button type="button" class="btn btn-light bg-transparent shadow mx-4 fw-bold">
+                <i class="fas fa-layer-group text-danger px-3"></i>
+                    + 30 Services
+                    </button>
+            </div>
+            <div className="text-danger fw-bold my-5">Success stories with  400+ clients</div>
             <div>
                 <div>
                     <img src={american} className="w-20 mx-3" />
@@ -26,14 +40,13 @@ const Services = () => {
                 </div>
                 <div>
                     <img src={trella} className="mx-4" />
-                    <img src={IX} className="mx-4"  />
-                    <img src={seaCode} className="mx-4"  />
-                    <img src={makwa} className="mx-4"  />
-                    <img src={Z} className="mx-4"  />
-                    <img src={Quwa} className="mx-4"  />
+                    <img src={IX} className="mx-4" />
+                    <img src={seaCode} className="mx-4" />
+                    <img src={makwa} className="mx-4" />
+                    <img src={Z} className="mx-4" />
+                    <img src={Quwa} className="mx-4" />
                 </div>
             </div>
-            Services
 
         </div>
     );

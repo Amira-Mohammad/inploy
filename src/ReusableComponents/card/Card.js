@@ -1,7 +1,7 @@
 import React from 'react';
 import planet from "../../images/plant1.jpg";
 import person from '../../images/person1.jpg';
-import './card.css'
+import './card.scss'
 const Card = (props) => {
     return (
         <div className="card"
@@ -13,7 +13,7 @@ const Card = (props) => {
                 <div className="imgContainer position-absolute bg-danger ">
                     <img src={person} className="rounded-circle h-100" />
                 </div>
-                <div className="position-absolute bg-white text-dark shadow  pt-1 rating ">{props.rating}</div>
+                <div className="position-absolute bg-white text-dark shadow  pt-2 rating ">{props.rating}</div>
                 <h5 className="card-title fw-bolder">{props.name}</h5>
                 <h6 className="text-danger">{props.title}</h6>
                 <div className="d-flex">

@@ -3,7 +3,7 @@ import Card from '../../ReusableComponents/card/Card';
 import MacBook from'../../images/MacBook.png';
 import Msg from'../../images/Msg.png';
 import Msg1 from'../../images/Msg1.png';
-import './contact.css'
+import './contact.scss'
 const Contact = () => {
     return (
         <div className="text-center p-5">

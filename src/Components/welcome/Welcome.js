@@ -1,5 +1,5 @@
 import React from 'react';
-import './Welcome.css'
+import './Welcome.scss'
 const Welcome = () => {
     return (
         <div className="text-center my-3">
