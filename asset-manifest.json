@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/inploy/static/css/main.12a7800d.chunk.css",
+    "main.js": "/inploy/static/js/main.fa5664aa.chunk.js",
+    "main.js.map": "/inploy/static/js/main.fa5664aa.chunk.js.map",
+    "runtime-main.js": "/inploy/static/js/runtime-main.eda0c3ea.js",
+    "runtime-main.js.map": "/inploy/static/js/runtime-main.eda0c3ea.js.map",
+    "static/css/2.4f8976c6.chunk.css": "/inploy/static/css/2.4f8976c6.chunk.css",
+    "static/js/2.4221ce1c.chunk.js": "/inploy/static/js/2.4221ce1c.chunk.js",
+    "static/js/2.4221ce1c.chunk.js.map": "/inploy/static/js/2.4221ce1c.chunk.js.map",
+    "static/js/3.6e1a7820.chunk.js": "/inploy/static/js/3.6e1a7820.chunk.js",
+    "static/js/3.6e1a7820.chunk.js.map": "/inploy/static/js/3.6e1a7820.chunk.js.map",
+    "index.html": "/inploy/index.html",
+    "static/css/2.4f8976c6.chunk.css.map": "/inploy/static/css/2.4f8976c6.chunk.css.map",
+    "static/css/main.12a7800d.chunk.css.map": "/inploy/static/css/main.12a7800d.chunk.css.map",
+    "static/js/2.4221ce1c.chunk.js.LICENSE.txt": "/inploy/static/js/2.4221ce1c.chunk.js.LICENSE.txt",
+    "static/media/MacBook.bf06c410.png": "/inploy/static/media/MacBook.bf06c410.png",
+    "static/media/Msg.e6d6482c.png": "/inploy/static/media/Msg.e6d6482c.png",
+    "static/media/Msg1.461773a1.png": "/inploy/static/media/Msg1.461773a1.png",
+    "static/media/backend.276e4d5c.jpg": "/inploy/static/media/backend.276e4d5c.jpg",
+    "static/media/person1.f1b266ca.jpg": "/inploy/static/media/person1.f1b266ca.jpg",
+    "static/media/plant1.65d1f3b0.jpg": "/inploy/static/media/plant1.65d1f3b0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eda0c3ea.js",
+    "static/css/2.4f8976c6.chunk.css",
+    "static/js/2.4221ce1c.chunk.js",
+    "static/css/main.12a7800d.chunk.css",
+    "static/js/main.fa5664aa.chunk.js"
+  ]
+}
