@@ -1,0 +1,44 @@
+/* .card{
+    max-width: 250px;
+} */
+.imgContainer , .imgContainer img{
+    border-radius: 50%;
+    max-width: 60px;
+    max-height: 60px;
+}
+
+
+.imgContainer{
+   
+    top: -20px;
+    left: 60px;
+   
+    
+}
+
+.status{
+    top: -20px;
+    left: 10px;
+    border-radius: 50%;
+    width: 40px;
+   height: 40px;
+}
+
+.rating{
+    top: -20px;
+    left: 130px;
+    border-radius: 50%;
+   width: 40px;
+    height: 40px;
+}
+.quickView:hover{
+    text-decoration: underline;
+}
+
+.quickView{
+    
+        word-spacing: 0px;
+        font-size: 15px;
+        margin-right:2px;
+    
+}

@@ -1,0 +1,42 @@
+
+
+
+
+.registerNow{
+    width: fit-content;
+}
+a{
+    color: #212529;;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #212529;;
+    text-decoration: underline;
+}
+.Msg {
+    left: 210px;
+    top: -30px;
+}
+.lapTopCard{
+    max-width: 200px;
+    top: 50px;
+}
+.email{
+    top: 200px;
+    left: 300px;
+
+}
+.iconsLinks{
+    top: 235px;
+    left: 290px;
+  
+}
+
+.icon{
+    top: -20px;
+left: 130px;
+border-radius: 50%;
+width: 30px;
+height: 30px
+}

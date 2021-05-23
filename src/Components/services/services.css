@@ -1,0 +1,22 @@
+.form-check-input:checked {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #dc3545;
+    outline: 0;
+    box-shadow: none;
+}
+
+.form-check-input:focus {
+    border-color: #dc3545;
+    outline: 0;
+    box-shadow:none
+ }
+
+ .contactMail{
+    width: fit-content;
+ }
