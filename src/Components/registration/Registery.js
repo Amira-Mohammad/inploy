@@ -8,7 +8,8 @@ const Registery = () => {
     return (
         <div className="text-center container my-5 Registery ">
             <div className="row">
-                <div className="col-6 d-flex">
+
+                <div class="col-sm-6 d-flex">
 
                     <Card
                         appearence={"9999"}
@@ -35,22 +36,8 @@ const Registery = () => {
                         img={backend}
                         height={"300px"}
                     />
-                    {/* <div className="card" >
-                        <img src={planet} className="card-img-top" />
-                        <div className="card-body p-5">
-                            <div className="position-absolute bg-danger text-white pt-2 status"><i class="fas fa-check"></i></div>
-                            <div className="imgContainer position-absolute bg-danger ">
-                                <img src={person} className="rounded-circle h-100" />
-                            </div>
-                            <div className="position-absolute bg-white text-dark shadow  pt-2 rating ">0.5</div>
-                            <h5 className="card-title fw-bolder">name</h5>
-                            <h6 className="text-danger">job title</h6>
-                            <a>Quick view <i class="fas fa-angle-down"></i></a>
-
-                        </div>
-                    </div> */}
                 </div>
-                <div className="col-6">
+                <div class="col-sm-6">
                     <h3 className="text-start fw-bold border-danger border-bottom border-5 registerNow">Register Now</h3>
 
                     <form >
@@ -67,8 +54,8 @@ const Registery = () => {
                             <input type="text" class="form-control form-control-lg mx-1" placeholder="Number" />
                         </div>
                         <div class="form-group mx-1 rail-select">
-                        <div class="select-side position-absolute bg-dark pt-2">
-                            <i class="fas fa-angle-down text-white"></i>
+                            <div class="select-side position-absolute bg-dark pt-2">
+                                <i class="fas fa-angle-down text-white"></i>
                             </div>
                             <select class="form-select select">
                                 <option value="" selected disabled>Category</option>
@@ -78,7 +65,7 @@ const Registery = () => {
                             </select>
 
 
-                        </div> 
+                        </div>
 
 
                         <div class="form-group m-1 pt-5 d-flex">
@@ -86,11 +73,13 @@ const Registery = () => {
                         </div>
 
                     </form>
-
-
-
-
                 </div>
+
+
+                {/* <div className="col-6 d-flex">  </div>
+                <div className="col-6"></div> */}
+
+
             </div>
         </div>
     );
